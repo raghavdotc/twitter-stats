@@ -26,7 +26,7 @@ class TwitterController extends AppController {
     }
 
     private function _create_twitter_client() {
-        return new OAuthClient('MqUZpPUSXCz9kkrySk6odA', 'I9Reo8SXMBNQR3hw6xszZNd3eUwrAVbGh0zFsDDLlY');
+        return new OAuthClient('MqUZpPUSXCz9kqweqwkrySk6odA', 'I9Reo8SXMBNQR3h2131w6xszZNd3eUwrAVbGh0zFsDDLlY');
     }
 
     public function callback() {
